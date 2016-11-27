@@ -1,10 +1,11 @@
-# Grove_Recorder
+# Grove_LoRa_Radio
+Grove LoRa Radio 433MHz SKU: 113060007
 
-SKU: 103020018
+Grove LoRa Radio 868MHz SKU: 113060006
 
 Change Log:
 
-- 2016-11-22: create repos by Jeremy (Jeremy.xiao@seeed.cc)
+- 2016-11-27: create repos by Jiankai.li (jiankai.li@seeed.cc)
 
 ## About Seeed
 
