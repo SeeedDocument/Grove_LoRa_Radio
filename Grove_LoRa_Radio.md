@@ -103,8 +103,13 @@ After upload completed, you can open the serial monitor to see the result.
 
 ##  Resources
 ---
-*   [Grove - LoRa Radio 433MHz v1.0 Schematics (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20433MHz%20v1.0.brd)
+*   [Grove - LoRa Radio Library and Examples](https://github.com/WayenWeng/Grove_Lora_433MHz_to_915MHz_RF)
+*   [Grove - LoRa Radio 433MHz v1.0 Schematics (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20433MHz%20v1.0sch.rar)
+*   [Grove - LoRa Radio 433MHz v1.0 Schematics (PDF files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20433MHz%20v1.0pdf.rar)
+*   [Grove - LoRa Radio 433MHz v1.0 PCB (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20433MHz%20v1.0brd.rar)
+*   [Grove - LoRa Radio 868MHz v1.0 Schematics (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20868MHz%20v1.0sch.rar)
+*   [Grove - LoRa Radio 868MHz v1.0 Schematics (PDF files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20868MHz%20v1.0pdf.rar)
+*   [Grove - LoRa Radio 868MHz v1.0 PCB (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20868MHz%20v1.0brd.rar)
+*   [LoRa Alliance](https://www.lora-alliance.org/)
 
-*   [Grove - Recorder v1.0 Schematics (pdf)](https://github.com/SeeedDocument/Grove_Recorder/raw/master/res/Grove-Recorder_v1.0.pdf)
 
-*   [Datasheet ISD1820P.pdf (Chinese)](https://github.com/SeeedDocument/Grove_Recorder/raw/master/res/ISD1820P.pdf)
