@@ -71,93 +71,39 @@ If this is your first time using Arduino, Please put hand on [here](http://ardui
 
 [Seeeduino Lotus](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html) is a combination of Seeeduino and Base Shield. We can connect the LoRa Radio module to the D5 socket directly as the below picture shows.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_connect.jpg)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/demo.jpg)
 
-As shown below:
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_connect.jpg)
 
 ###Download
 
-Click [here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/res/Grove_uart_wifi_test.zip) to download testing code and decompress it to any folders(e.g. Drive D or desktop)
-
+Click [here](https://github.com/WayenWeng/Grove_Lora_433MHz_to_915MHz_RF) to download the library and example code and decompress it to any folders(e.g. Drive D or desktop)
 
 Now you need simple [configurations for Arduino](https://seeeddoc.github.io/Sketchbook%E7%9A%84%E4%BD%BF%E7%94%A8) sketchbook.
 
 Launch Arduino IDE and click File>Preferences and add absolute location for downloaded testing code at Sketchbook location .
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_wiki_sketchbook.png)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/perference.jpg)
 
-After configurations, please restart Arduino, click File>Sketchbook and choose grove_uart_wifi_wiki after which testing code will show up.
+After configurations, please restart Arduino, click File>Sketchbook and choose rf95_client.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_wiki_sketchbook2.png)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/down_client.jpg)
 
-Click Tools>Board to choose Seeeduino Lite and select respective serial port.
+Click Tools>Board to choose "Arduino/Genuino Uno" and select respective serial port.
 
-Now click Upload(CTRL+U) to burn testing code. Please refer to here for any error prompt and you can also add comment on forum
+Then connect another Seeeduino Lotus to PC and download rf95_server code.
+
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/down_server.jpg)
 
 
 ###Review Results
 
-After upload completed, you can see AP identifier on OLED display.Following AP identifiers are found in our office.
+After upload completed, you can open the serial monitor to see the result.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_result.jpg)
-
-##Firmware update
-
-Our module board got a firmware burned into it for factory settings, you can burn other firmware to it if you like. Click [here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/res/Grove-Uart_Wifi_Firmware-code.zip) to download source code of factory setting firmware.
-
-###Preparations
-
-* A USB to serial converter is required for firmware updating, you can choose UartSBee V5 we offered if you don't know where to get one.
-* A Grove-Jump converting cable is required and we also offered for sale. Click here to check.
-* A micro USB cable(type A to type C) is required.
-
-###Connecting hardware
-
-**1.**Connect one end of Grove-Jump converting cable with grove socket on Grove - Uart Wifi and connect other end with UartSBee V5 which shown as following.
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_firmware_connect.jpg)
-
-**2.**Then connecting cables like following figure:
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_firmware_connect2.jpg)
-
-###Download burning tools
-
-* [FLASH DOWNLOAD TOOLS](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/res/FLASH_DOWNLOAD_TOOLS_v1.2_150512.zip)
-* [Bin files of firmware](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/res/Grove-uart-wifi-firmware-bin.zip)
-
-###Operation steps
-
-Now make sure you have downloaded burning software and bin file of firmware. Let us start burning to board.
-
-* Press and hold button until red LED indicator light on which indicate it is ready to burn firmware.
-* Start executable files in FLASH DOWNLOAD TOOLS files (double click) to make configurations like following steps:
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_firmware_tools1.jpg)
-
-**1.** Choose desired files from firmware bin file downloaded.
-
-**2.** Check SpiAutoSet.
-
-**3.** Choose respective COM port and BAUDRATE.
-
-###Click to START to burn firmware
-
-* Progress bar will be displayed in firmware-burning process.
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_firmware_tools2.1.jpg)
-
-* Finally, firmware-burning is done.
-
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove-Uart_Wifi/master/img/Grove_uart_wifi_firmware_tools3.jpg)
-
-
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/result.jpg)
 
 ##  Resources
 ---
-*   [Grove - Recorder v1.0 Schematics (Eagle files)](https://github.com/SeeedDocument/Grove_Recorder/raw/master/res/Grove-Recorder_v1.0.zip)
+*   [Grove - LoRa Radio 433MHz v1.0 Schematics (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20433MHz%20v1.0.brd)
 
 *   [Grove - Recorder v1.0 Schematics (pdf)](https://github.com/SeeedDocument/Grove_Recorder/raw/master/res/Grove-Recorder_v1.0.pdf)
 
