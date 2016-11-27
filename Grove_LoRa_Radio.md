@@ -61,7 +61,7 @@ Now we are making a demo for P2P(point to point) communication with the Grove - 
 * [Grove - LoRa Radio 433MHz](https://www.seeedstudio.com/)*2
 
 
-If this is your first time using [Seeeduino Lotus](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html), please refer to [Seeeduino Lotus's wiki](http://www.seeedstudio.com/wiki/Seeeduino_Lotus_v1.0)
+If this is your first time using [Seeeduino Lotus](https://www.seeedstudio.com/Seeeduino-Lotus-ATMega328-Board-with-Grove-Interface-p-1942.html), please refer to [Seeeduino Lotus's wiki](http://www.seeedstudio.com/wiki/Seeeduino_Lotus_v1.0).
 
 Seeeduino Lotus is fully compatible with Arduino which works as simple as Arduino.
 
@@ -76,11 +76,11 @@ If this is your first time using Arduino, Please put hand on [here](http://ardui
 
 ###Download
 
-Click [here](https://github.com/WayenWeng/Grove_Lora_433MHz_to_915MHz_RF) to download the library and example code and decompress it to any folders(e.g. Drive D or desktop)
+Click [here](https://github.com/WayenWeng/Grove_Lora_433MHz_to_915MHz_RF) to download the library and example code and decompress it to any folders(e.g. Drive D or desktop).
 
 Now you need simple [configurations for Arduino](https://seeeddoc.github.io/Sketchbook%E7%9A%84%E4%BD%BF%E7%94%A8) sketchbook.
 
-Launch Arduino IDE and click File>Preferences and add absolute location for downloaded testing code at Sketchbook location .
+Launch Arduino IDE and click File>Preferences and add absolute location for downloaded testing code at Sketchbook location.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/perference.jpg)
 
