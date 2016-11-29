@@ -111,6 +111,6 @@ After upload completed, you can open the serial monitor to see the result.
 *   [Grove - LoRa Radio 868MHz v1.0 Schematics (PDF files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20868MHz%20v1.0pdf.rar)
 *   [Grove - LoRa Radio 868MHz v1.0 PCB (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20868MHz%20v1.0brd.rar)
 *   [LoRa Alliance](https://www.lora-alliance.org/)
-*   [RFM95/96/97 Data Sheet]()
+*   [RFM95/96/97 Data Sheet](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/RFM95_96_97_98_DataSheet.pdf)
 
 
