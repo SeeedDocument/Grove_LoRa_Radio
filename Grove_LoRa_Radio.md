@@ -8,16 +8,13 @@ surveyurl: https://www.research.net/r/Grove_LoRa_Radio
 sku:  113060006/113060007
 ---
 
-![](https://github.com/SeeedDocument/Grove_Recorder/raw/master/img/Grove-Recoder.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/LoRa.jpg)
 
 Grove - LoRa Radio is a wireless radio LoRa module with Grove Connector based on SX1276, it integrates richful features, like extra long communication, high penetrability, low consumption and etc.
 
 Grove - LoRa Radio can help people to make their applications adapted in a longstanding, remotely and complex terrain condition. The communication of the distance of two LoRa node at least 2KM in a open field by the default antenna, and simultaneously people can add extra antenna to the reserved port.
 
-LoRaWAN™ is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. LoRaWAN targets key requirements of Internet of Things such as secure bi-directional communication, mobility and localization services. The LoRaWAN specification provides seamless interoperability among smart Things without the need of complex local installations and gives back the freedom to the user, developer, businesses enabling the roll out of Internet of Things.
-
-Due to the spread spectrum technology, communications with different data rates do not interfere with each other and create a set of "virtual" channels increasing the capacity of the gateway. LoRaWAN data rates range from 0.3 kbps to 50 kbps. To maximize both battery life of the end-devices and overall network capacity, the LoRaWAN network server is managing the data rate and RF output for each end-device individually by means of an adaptive data rate (ADR) scheme.
-
+Due to the spread spectrum technology, communications with different data rates do not interfere with each other. Data rates range from 0.3 kbps to 50 kbps.
 
 [![](https://github.com/SeeedDocument/Seeed-WiKi/raw/master/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com)
 
@@ -35,6 +32,8 @@ Due to the spread spectrum technology, communications with different data rates 
 - +20dBm 100 mW Power Output Capability
 - Size:20*40mm
 - Rate:0.3kps~50kps
+- Ready-to-go Arduino libraries
+- Resered MHF antenna connector
 
 ##  Interface Function
 ---
@@ -48,6 +47,7 @@ to be improve
 - Health
 - City IoT
 - Sensor networks
+- Long distance wireless communication
 
 ##Getting Started
 
@@ -76,7 +76,7 @@ If this is your first time using Arduino, Please put hand on [here](http://ardui
 
 ###Download
 
-Click [here](https://github.com/WayenWeng/Grove_Lora_433MHz_to_915MHz_RF) to download the library and example code and decompress it to any folders(e.g. Drive D or desktop).
+Click [here](https://github.com/Seeed-Studio/Grove_LoRa_433MHz_and_915MHz_RF/) to download the library and example code and decompress it to any folders(e.g. Drive D or desktop).
 
 Now you need simple [configurations for Arduino](https://seeeddoc.github.io/Sketchbook%E7%9A%84%E4%BD%BF%E7%94%A8) sketchbook.
 
@@ -103,7 +103,7 @@ After upload completed, you can open the serial monitor to see the result.
 
 ##  Resources
 ---
-*   [Grove - LoRa Radio Library and Examples](https://github.com/WayenWeng/Grove_Lora_433MHz_to_915MHz_RF)
+*   [Grove - LoRa Radio Library and Examples](https://github.com/Seeed-Studio/Grove_LoRa_433MHz_and_915MHz_RF/)
 *   [Grove - LoRa Radio 433MHz v1.0 Schematics (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20433MHz%20v1.0sch.rar)
 *   [Grove - LoRa Radio 433MHz v1.0 Schematics (PDF files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20433MHz%20v1.0pdf.rar)
 *   [Grove - LoRa Radio 433MHz v1.0 PCB (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20433MHz%20v1.0brd.rar)
@@ -111,5 +111,6 @@ After upload completed, you can open the serial monitor to see the result.
 *   [Grove - LoRa Radio 868MHz v1.0 Schematics (PDF files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20868MHz%20v1.0pdf.rar)
 *   [Grove - LoRa Radio 868MHz v1.0 PCB (Eagle files)](https://github.com/SeeedDocument/Grove_LoRa_Radio/blob/master/res/Grove%20-%20LoRa%20Radio%20868MHz%20v1.0brd.rar)
 *   [LoRa Alliance](https://www.lora-alliance.org/)
+*   [RFM95/96/97 Data Sheet]()
 
 
