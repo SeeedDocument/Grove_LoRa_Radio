@@ -102,7 +102,14 @@ Then connect another Seeeduino Lotus to PC and download rf95_server code.
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/down_server.jpg)
 
 **Note:**
-If you're using Grove - LoRa Radio 868MHz module
+If you're using Grove - LoRa Radio 868MHz module change the following code.
+
+```c 
+
+//rf95.setFrequency(434.0);
+rf95.setFrequency(868.0);
+
+```
 
 ###Review Results
 
