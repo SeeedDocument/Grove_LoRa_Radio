@@ -37,7 +37,14 @@ Due to the spread spectrum technology, communications with different data rates 
 
 ##  Interface Function
 ---
-to be improve
+
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/Interface.jpg)
+
+1. ATMega168 MCU
+2. MHF
+3. ANT
+4. RFM95 Module
+5. Grove Interface
 
 ## Application Ideas
 ---
@@ -94,12 +101,21 @@ Then connect another Seeeduino Lotus to PC and download rf95_server code.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/down_server.jpg)
 
+**Note:**
+If you're using Grove - LoRa Radio 868MHz module
 
 ###Review Results
 
 After upload completed, you can open the serial monitor to see the result.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/result.jpg)
+
+###Date Rate
+
+The below chart shows the relationships between the band rate signal band width spreding factor and sensitivity.
+
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/DateRate.png)
+
 
 ##  Resources
 ---
