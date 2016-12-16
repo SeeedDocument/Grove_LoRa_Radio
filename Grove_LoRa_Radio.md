@@ -117,7 +117,7 @@ After upload completed, you can open the serial monitor to see the result.
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Grove_LoRa_Radio/master/img/result.jpg)
 
-###Date Rate
+###Data Rate
 
 The below chart shows the relationships between the band rate signal band width spreding factor and sensitivity.
 
